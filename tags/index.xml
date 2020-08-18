@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on tonibeck.github.io</title>
+    <link>https://tonibeck.github.io/tags/</link>
+    <description>Recent content in Tags on tonibeck.github.io</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 20 May 2017 12:10:51 +0200</lastBuildDate>
+    
+	<atom:link href="https://tonibeck.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>azure</title>
+      <link>https://tonibeck.github.io/tags/azure/</link>
+      <pubDate>Sat, 20 May 2017 12:10:51 +0200</pubDate>
+      
+      <guid>https://tonibeck.github.io/tags/azure/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>infrastructure</title>
+      <link>https://tonibeck.github.io/tags/infrastructure/</link>
+      <pubDate>Sat, 20 May 2017 12:10:51 +0200</pubDate>
+      
+      <guid>https://tonibeck.github.io/tags/infrastructure/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>networking</title>
+      <link>https://tonibeck.github.io/tags/networking/</link>
+      <pubDate>Sat, 20 May 2017 12:10:51 +0200</pubDate>
+      
+      <guid>https://tonibeck.github.io/tags/networking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>unifi</title>
+      <link>https://tonibeck.github.io/tags/unifi/</link>
+      <pubDate>Sat, 20 May 2017 12:10:51 +0200</pubDate>
+      
+      <guid>https://tonibeck.github.io/tags/unifi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>wireless</title>
+      <link>https://tonibeck.github.io/tags/wireless/</link>
+      <pubDate>Sat, 20 May 2017 12:10:51 +0200</pubDate>
+      
+      <guid>https://tonibeck.github.io/tags/wireless/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>infrastucture</title>
+      <link>https://tonibeck.github.io/tags/infrastucture/</link>
+      <pubDate>Sat, 20 May 2017 11:58:06 +0200</pubDate>
+      
+      <guid>https://tonibeck.github.io/tags/infrastucture/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

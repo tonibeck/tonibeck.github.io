@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tonibeck.github.io</title>
+    <link>https://tonibeck.github.io/</link>
+    <description>Recent content on tonibeck.github.io</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 20 May 2017 12:10:51 +0200</lastBuildDate>
+    
+	<atom:link href="https://tonibeck.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Markdown Cheat Sheet</title>
+      <link>https://tonibeck.github.io/2017/05/20/markdown-cheat-sheet/</link>
+      <pubDate>Sat, 20 May 2017 12:10:51 +0200</pubDate>
+      
+      <guid>https://tonibeck.github.io/2017/05/20/markdown-cheat-sheet/</guid>
+      <description>&lt;p&gt;This note demonstrates some of what &lt;a href=&#34;http://daringfireball.net/projects/markdown/&#34;&gt;Markdown&lt;/a&gt; is capable of doing.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Note: Feel free to play with this page. Unlike regular notes, this doesn&amp;rsquo;t automatically save itself.&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Unifi Controller on Azure</title>
+      <link>https://tonibeck.github.io/2017/05/20/unifi-controller-on-azure/</link>
+      <pubDate>Sat, 20 May 2017 12:10:51 +0200</pubDate>
+      
+      <guid>https://tonibeck.github.io/2017/05/20/unifi-controller-on-azure/</guid>
+      <description>Objectives In this post I&amp;rsquo;ll show how a unifi wireless controller can be deployed in Azure. Overall goal here was to have a lightweight, efficient yet very capable home network. I wanted to reduce the number of boxes I have to a minimum - So only things that remained on-prem are a compact PoE Router (Unifi Edge Router PoE) and three Unifi Access Points (two pros and one light.)
+Goals  Minimum number of boxes required Energy efficient High performance Easy to manage Modern and cool :-)  First things first - the Azure resources have to be deployed.</description>
+    </item>
+    
+    <item>
+      <title>Using the gallery shortcode</title>
+      <link>https://tonibeck.github.io/2017/05/20/using-the-gallery-shortcode/</link>
+      <pubDate>Sat, 20 May 2017 12:00:23 +0200</pubDate>
+      
+      <guid>https://tonibeck.github.io/2017/05/20/using-the-gallery-shortcode/</guid>
+      <description>&lt;p&gt;This way you can easily include a gallery into your page. Copy the code below into your content file and enter the relative paths to your images.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Formulas with MathJax</title>
+      <link>https://tonibeck.github.io/2017/05/20/formulas-with-mathjax/</link>
+      <pubDate>Sat, 20 May 2017 11:58:06 +0200</pubDate>
+      
+      <guid>https://tonibeck.github.io/2017/05/20/formulas-with-mathjax/</guid>
+      <description>&lt;p&gt;Mathematical equations in form of LaTeX or MathML code can be rendered with the support of &lt;a href=&#34;https://www.mathjax.org&#34;&gt;MathJax&lt;/a&gt;. MathML works out of the box. If you&amp;rsquo;re using LaTeX you need to wrap your equation with &lt;code&gt;$$&lt;/code&gt; as shown in the following example:&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
