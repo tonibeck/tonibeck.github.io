@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
-    <title>Using the gallery shortcode &middot; tonibeck.github.io</title>
+    <title>Unifi Controller on Azure &middot; tonibeck.github.io</title>
     <meta name="generator" content="Hugo 0.73.0" />
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -10,7 +10,7 @@
       <meta name="description" content="Cloud Stuff">
     
     
-    <link rel="canonical" href="https://tonibeck.github.io/2017/05/20/using-the-gallery-shortcode/"/>
+    <link rel="canonical" href="https://tonibeck.github.io/2020/08/18/unifi-controller-on-azure/"/>
     <link rel="icon" href="https://tonibeck.github.io/favicon.ico">
     <link rel="apple-touch-icon" href="https://tonibeck.github.io/apple-touch-icon.png"/>
     <link rel="stylesheet" href="https://tonibeck.github.io/css/style.css">
@@ -20,26 +20,29 @@
     
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Source+Code+Pro' rel='stylesheet' type='text/css'>
-    <meta property="og:title" content="Using the gallery shortcode" />
-<meta property="og:description" content="This way you can easily include a gallery into your page. Copy the code below into your content file and enter the relative paths to your images." />
+    <meta property="og:title" content="Unifi Controller on Azure" />
+<meta property="og:description" content="Objectives In this post I&rsquo;ll show how a unifi wireless controller can be deployed in Azure. Overall goal here was to have a lightweight, efficient yet very capable home network. I wanted to reduce the number of boxes I have to a minimum - So only things that remained on-prem are a compact PoE Router (Unifi Edge Router PoE) and three Unifi Access Points (two pros and one light.)
+Goals  Minimum number of boxes required Energy efficient High performance Easy to manage Modern and cool :-)  First things first - the Azure resources have to be deployed." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://tonibeck.github.io/2017/05/20/using-the-gallery-shortcode/" />
-<meta property="article:published_time" content="2017-05-20T12:00:23+02:00" />
-<meta property="article:modified_time" content="2017-05-20T12:00:23+02:00" />
+<meta property="og:url" content="https://tonibeck.github.io/2020/08/18/unifi-controller-on-azure/" />
+<meta property="article:published_time" content="2020-08-18T12:10:51+02:00" />
+<meta property="article:modified_time" content="2020-08-18T12:10:51+02:00" />
 
     
-    <meta itemprop="name" content="Using the gallery shortcode">
-<meta itemprop="description" content="This way you can easily include a gallery into your page. Copy the code below into your content file and enter the relative paths to your images.">
-<meta itemprop="datePublished" content="2017-05-20T12:00:23&#43;02:00" />
-<meta itemprop="dateModified" content="2017-05-20T12:00:23&#43;02:00" />
-<meta itemprop="wordCount" content="27">
+    <meta itemprop="name" content="Unifi Controller on Azure">
+<meta itemprop="description" content="Objectives In this post I&rsquo;ll show how a unifi wireless controller can be deployed in Azure. Overall goal here was to have a lightweight, efficient yet very capable home network. I wanted to reduce the number of boxes I have to a minimum - So only things that remained on-prem are a compact PoE Router (Unifi Edge Router PoE) and three Unifi Access Points (two pros and one light.)
+Goals  Minimum number of boxes required Energy efficient High performance Easy to manage Modern and cool :-)  First things first - the Azure resources have to be deployed.">
+<meta itemprop="datePublished" content="2020-08-18T12:10:51&#43;02:00" />
+<meta itemprop="dateModified" content="2020-08-18T12:10:51&#43;02:00" />
+<meta itemprop="wordCount" content="620">
 
 
 
-<meta itemprop="keywords" content="" />
+<meta itemprop="keywords" content="azure,networking,unifi,infrastructure,wireless," />
     <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Using the gallery shortcode"/>
-<meta name="twitter:description" content="This way you can easily include a gallery into your page. Copy the code below into your content file and enter the relative paths to your images."/>
+<meta name="twitter:title" content="Unifi Controller on Azure"/>
+<meta name="twitter:description" content="Objectives In this post I&rsquo;ll show how a unifi wireless controller can be deployed in Azure. Overall goal here was to have a lightweight, efficient yet very capable home network. I wanted to reduce the number of boxes I have to a minimum - So only things that remained on-prem are a compact PoE Router (Unifi Edge Router PoE) and three Unifi Access Points (two pros and one light.)
+Goals  Minimum number of boxes required Energy efficient High performance Easy to manage Modern and cool :-)  First things first - the Azure resources have to be deployed."/>
 
     
 
@@ -224,11 +227,13 @@
     <article id="page-undefined" class="article article-type-page" itemscope="" itemprop="blogPost">
     <div class="article-inner">
         
+            <img src="https://tonibeck.github.io/banners/unifi_portfolio.png" class="article-banner">
+        
 
         <header class="article-header">
-    <a href="https://tonibeck.github.io/2017/05/20/using-the-gallery-shortcode/">
+    <a href="https://tonibeck.github.io/2020/08/18/unifi-controller-on-azure/">
     <h1 class="article-title" itemprop="name">
-        Using the gallery shortcode
+        Unifi Controller on Azure
     </h1>
     </a>
     <div class="article-meta">
@@ -236,12 +241,12 @@
         
         <div class="article-date">
             <i class="fa fa-calendar"></i>
-            <time datetime="2017-05-20 12:00:23 &#43;0200 CEST" itemprop="datePublished">2017-05-20</time>
+            <time datetime="2020-08-18 12:10:51 &#43;0200 CEST" itemprop="datePublished">2020-08-18</time>
             &middot;
-            27
+            620
             words
             &middot;
-            1
+            3
             minute read
         </div>
         
@@ -253,33 +258,99 @@
         
             
             
+            <div class="article-category">
+                <i class="fa fa-tags"></i>
+                
+                
+                <a class="article-category-link" href="https://tonibeck.github.io/tags/azure">azure</a>
+                &middot;
+                
+                
+                <a class="article-category-link" href="https://tonibeck.github.io/tags/networking">networking</a>
+                &middot;
+                
+                
+                <a class="article-category-link" href="https://tonibeck.github.io/tags/unifi">unifi</a>
+                &middot;
+                
+                
+                <a class="article-category-link" href="https://tonibeck.github.io/tags/infrastructure">infrastructure</a>
+                &middot;
+                
+                
+                <a class="article-category-link" href="https://tonibeck.github.io/tags/wireless">wireless</a>
+                
+                
+            </div>
+            
         
     </div>
 </header>
 
         <div class="article-entry" itemprop="articleBody">
-            <p>This way you can easily include a gallery into your page. Copy the code below into your content file and enter the relative paths to your images.</p>
-<!-- raw HTML omitted -->
-<div class="article-gallery">
-    <div class="article-gallery-photos">
-        
-        <a class="article-gallery-img fancybox" href="/images/about_04.jpg" rel="group1">
-            <img src="https://tonibeck.github.io/images/about_04.jpg" itemprop="image">
-        </a>
-        
-        <a class="article-gallery-img fancybox" href="/images/about_05.jpg" rel="group1">
-            <img src="https://tonibeck.github.io/images/about_05.jpg" itemprop="image">
-        </a>
-        
-        <a class="article-gallery-img fancybox" href="/images/about_06.jpg" rel="group1">
-            <img src="https://tonibeck.github.io/images/about_06.jpg" itemprop="image">
-        </a>
-        
-    </div>
-</div>
+            <h3 id="objectives">Objectives</h3>
+<p>In this post I&rsquo;ll show how a unifi wireless controller can be deployed in Azure. Overall goal here was to have a lightweight, efficient yet very capable home network. I wanted to reduce the number of boxes I have to a minimum - So only things that remained on-prem are a compact PoE Router (Unifi Edge Router PoE) and three Unifi Access Points (two pros and one light.)</p>
+<h3 id="goals">Goals</h3>
+<ul>
+<li>Minimum number of boxes required</li>
+<li>Energy efficient</li>
+<li>High performance</li>
+<li>Easy to manage</li>
+<li>Modern and cool :-)</li>
+</ul>
+<p>First things first - the Azure resources have to be deployed. There is an excellent post in the <a href="https://community.ui.com/questions/Unifi-Controller-on-Azure/6c1352cb-a3c9-400b-845e-60be8c60aaa2">Unifi-forum</a>. Bottom line is the following code to deploy the required resources:</p>
+<h1 id="heading"></h1>
+<pre><code>az group create --name Unifi-RG --location EastUS  
+az network nsg create --resource-group Unifi-RG --name Unifi-Controller-NSG 
+az network nsg rule create --resource-group Unifi-RG --nsg-name Unifi-Controller-NSG --name unifi-http --protocol tcp --priority 1000 --destination-port-ranges 80 8443 8880 8843 --access allow 
+az network nsg rule create --resource-group Unifi-RG --nsg-name Unifi-Controller-NSG --name unifi-inform --protocol tcp --priority 1001 --destination-port-ranges 8080 --access allow 
+az network nsg rule create --resource-group Unifi-RG --nsg-name Unifi-Controller-NSG --name unifi-stun --protocol udp --priority 1002 --destination-port-ranges 3478 --access allow 
+az network nsg rule create --resource-group Unifi-RG --nsg-name Unifi-Controller-NSG --name unifi-throughput --protocol tcp --priority 1003 --destination-port-ranges 6789 --access allow 
+az network nsg rule create --resource-group Unifi-RG --nsg-name Unifi-Controller-NSG --name ssh --protocol tcp --priority 1004 --destination-port-ranges 22 --access allow  
+az vm create --resource-group Unifi-RG \
+--name unifi-controller \
+--location EastUS \
+--image UbuntuLTS \
+--generate-ssh-keys \
+--size Standard_B1s \
+--nsg Unifi-Controller-NSG \
+--public-ip-address-allocation static.
+</code></pre>
+<p>It creates the resource group, the VM, a NSG and allows the required ports for the controller to communicate with the APs and be accessed externally. This is the high level design with the Azure and on-prem resources:</p>
+<p><img src="/images/home-network.png" alt="High level Design"></p>
+<p>Once the Azure resources are up and running, you can access the VM via SSH. Glenn R. has created an awesome script to install the Unifi Controller Software:
+<a href="https://community.ui.com/questions/UniFi-Installation-Scripts-or-UniFi-Easy-Update-Script-or-UniFi-Lets-Encrypt-or-Ubuntu-16-04-18-04-/ccbc7530-dd61-40a7-82ec-22b17f027776">https://community.ui.com/questions/UniFi-Installation-Scripts-or-UniFi-Easy-Update-Script-or-UniFi-Lets-Encrypt-or-Ubuntu-16-04-18-04-/ccbc7530-dd61-40a7-82ec-22b17f027776</a></p>
+<p>Once sshd into the VM, I used Glenn&rsquo;s script to install the Controller:</p>
+<h1 id="heading-1"></h1>
+<pre><code>wget https://get.glennr.nl/unifi/install/install_latest/unifi-latest.sh &amp;&amp; bash unifi-latest.sh
+</code></pre>
+<p>When the installation is completed, the Controller can be accessed via <code>https://ip.of.your.server:8443</code>.</p>
+<p>If everything went well the Controller should be up and running under its respective public IP. DNS is nice but not a must here.</p>
+<p>Et voila there it is: 
+<img src="/images/controller.png" alt=""></p>
+<p>The Controller is now ready to adopt the Unifi hardware. Obviously the Controller is not in the same Subnet as the APs. Therefore the APs have to be informed about how to reach the Controller. A comprehensive description of the different adoption-methods can be found in the <a href="https://help.ui.com/hc/en-us/articles/204909754-UniFi-Device-Adoption-Methods-for-Remote-UniFi-Controllers">unifi-help</a>.</p>
+<p>It seems the easiest way here is to just ssh into each AP prior to adoption and do the following:</p>
+<h1 id="heading-2"></h1>
+<pre><code>sudo syswrapper.sh restore-default
+set-inform http://ip-of-controller:8080/inform
+</code></pre>
+<ul>
+<li>The AP is resetted to factory defaults and</li>
+<li>knows where to find the Controller for adoption</li>
+</ul>
+<p><img src="/images/aps.png" alt=""></p>
+<p>Yapp, there we go, the APs are adopted and up and running. I will not go over the entire Unifi configuration in this post - it&rsquo;s well documented by Unifi.</p>
+<p>Pretty cool is that the Network can now be managed using the Unifi IOS-App:</p>
+<p><img src="/images/controller_ios.png" alt=""></p>
+<p>I&rsquo;m pretty happy with the Unifi Hardware. The performance numbers with our 250/100mbit fiber speak for themselves.</p>
+<p><img src="/images/speeds.png" alt=""></p>
+<p>The roaming works awesome and with two SSIDs covering 5 and 2.4Ghz the performance and coverage is outstanding.</p>
+<h3 id="wrapup">Wrapup</h3>
+<p>The goal of a minimal setup has been achieved. No unnessecary boxes on-prem - but outstanding performance and good manageability. In a future post I&rsquo;ll investigate the options to save resources within Azure in this setup. I have to admit that momentarily I have some credit within my Azure subscription - so until now I did not worry about that. Long-term goal would be to have the most efficient setup possible.</p>
+
         </div>
         <footer class="article-footer">
-    <a data-url="https://tonibeck.github.io/2017/05/20/using-the-gallery-shortcode/" data-id="b5878041fdfd74bbf2f0b2b55108eb61" class="article-share-link">
+    <a data-url="https://tonibeck.github.io/2020/08/18/unifi-controller-on-azure/" data-id="d1d697313be3cb21e9550deb0c19d238" class="article-share-link">
         <i class="fa fa-share"></i>
         Share
     </a>
@@ -356,21 +427,14 @@
     
 <nav id="article-nav">
     
-    <a href="https://tonibeck.github.io/2017/05/20/formulas-with-mathjax/" id="article-nav-older" class="article-nav-link-wrap">
+    <a href="https://tonibeck.github.io/2017/05/20/markdown-cheat-sheet/" id="article-nav-older" class="article-nav-link-wrap">
       <strong class="article-nav-caption">
           Older
       </strong>
-      <div class="article-nav-title">Formulas with MathJax</div>
+      <div class="article-nav-title">Markdown Cheat Sheet</div>
     </a>
     
 
-    
-    <a href="https://tonibeck.github.io/2017/05/20/markdown-cheat-sheet/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">
-          Newer
-      </strong>
-      <div class="article-nav-title">Markdown Cheat Sheet</div>
-    </a>
     
 </nav>
 
@@ -395,7 +459,7 @@
                 <div class="item-thumbnail">
                     <a href="https://tonibeck.github.io/2020/08/18/unifi-controller-on-azure/" class="thumbnail">
                     
-                        <span style="background-image:url(https://tonibeck.github.io/banners/unifi_portfolio.png)" alt="Using the gallery shortcode" class="thumbnail-image"></span>
+                        <span style="background-image:url(https://tonibeck.github.io/banners/unifi_portfolio.png)" alt="Unifi Controller on Azure" class="thumbnail-image"></span>
                     
                     </a>
                 </div>
@@ -452,7 +516,7 @@
                 <div class="item-thumbnail">
                     <a href="https://tonibeck.github.io/2017/05/20/formulas-with-mathjax/" class="thumbnail">
                     
-                        <span style="background-image:url(https://tonibeck.github.io/banners/banner_01.png)" alt="Using the gallery shortcode" class="thumbnail-image"></span>
+                        <span style="background-image:url(https://tonibeck.github.io/banners/banner_01.png)" alt="Unifi Controller on Azure" class="thumbnail-image"></span>
                     
                     </a>
                 </div>
