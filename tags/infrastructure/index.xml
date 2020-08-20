@@ -12,13 +12,12 @@
     
     
     <item>
-      <title>Unifi Controller on Azure</title>
-      <link>https://tonibeck.github.io/2020/08/18/unifi-controller-on-azure/</link>
+      <title>Unifi Network Controller on Azure</title>
+      <link>https://tonibeck.github.io/2020/08/18/unifi-network-controller-on-azure/</link>
       <pubDate>Tue, 18 Aug 2020 12:10:51 +0200</pubDate>
       
-      <guid>https://tonibeck.github.io/2020/08/18/unifi-controller-on-azure/</guid>
-      <description>Objectives In this post I&amp;rsquo;ll show how a unifi wireless controller can be deployed in Azure. Overall goal here was to have a lightweight, efficient yet very capable home network. I wanted to reduce the number of boxes I have to a minimum - So only things that remained on-prem are a compact PoE Router (Unifi Edge Router PoE) and three Unifi Access Points (two pros and one light.)
-Goals  Minimum number of boxes required Energy efficient High performance Easy to manage Modern and cool :-)  First things first - the Azure resources have to be deployed.</description>
+      <guid>https://tonibeck.github.io/2020/08/18/unifi-network-controller-on-azure/</guid>
+      <description>Objectives In this post I&amp;rsquo;ll show how to deploy a Unifi Network Controller on Microsoft Azure Cloud. The main goal of this effort was to have a lightweight, efficient but yet very capable home network. In order to do so, the number of boxes required on-prem is kept to the bare minimum. The only devices that remained on-prem are a compact PoE Router (Unifi Edge Router PoE) as well as three Unifi Access Points (two pros and one light).</description>
     </item>
     
   </channel>
