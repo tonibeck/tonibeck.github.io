@@ -21,7 +21,7 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Source+Code+Pro' rel='stylesheet' type='text/css'>
     <meta property="og:title" content="Unifi Network Controller on Azure" />
-<meta property="og:description" content="Objectives In this post I&rsquo;ll show how to deploy a Unifi Network Controller on Microsoft Azure Cloud. The main goal of this effort was to have a lightweight, efficient but yet very capable home network. In order to do so, the number of boxes required on-prem is kept to the bare minimum. The only devices that remained on-prem are a compact PoE Router (Unifi Edge Router PoE) as well as three Unifi Access Points (two pros and one light)." />
+<meta property="og:description" content="Unifi Networking with the controller hosted on Azure - a simple and powerful approach to a Home Network." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://tonibeck.github.io/2020/08/18/unifi-network-controller-on-azure/" />
 <meta property="article:published_time" content="2020-08-18T12:10:51+02:00" />
@@ -29,17 +29,17 @@
 
     
     <meta itemprop="name" content="Unifi Network Controller on Azure">
-<meta itemprop="description" content="Objectives In this post I&rsquo;ll show how to deploy a Unifi Network Controller on Microsoft Azure Cloud. The main goal of this effort was to have a lightweight, efficient but yet very capable home network. In order to do so, the number of boxes required on-prem is kept to the bare minimum. The only devices that remained on-prem are a compact PoE Router (Unifi Edge Router PoE) as well as three Unifi Access Points (two pros and one light).">
+<meta itemprop="description" content="Unifi Networking with the controller hosted on Azure - a simple and powerful approach to a Home Network.">
 <meta itemprop="datePublished" content="2020-08-18T12:10:51&#43;02:00" />
 <meta itemprop="dateModified" content="2020-08-18T12:10:51&#43;02:00" />
-<meta itemprop="wordCount" content="674">
+<meta itemprop="wordCount" content="692">
 
 
 
 <meta itemprop="keywords" content="azure,networking,unifi,infrastructure,wireless," />
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Unifi Network Controller on Azure"/>
-<meta name="twitter:description" content="Objectives In this post I&rsquo;ll show how to deploy a Unifi Network Controller on Microsoft Azure Cloud. The main goal of this effort was to have a lightweight, efficient but yet very capable home network. In order to do so, the number of boxes required on-prem is kept to the bare minimum. The only devices that remained on-prem are a compact PoE Router (Unifi Edge Router PoE) as well as three Unifi Access Points (two pros and one light)."/>
+<meta name="twitter:description" content="Unifi Networking with the controller hosted on Azure - a simple and powerful approach to a Home Network."/>
 
     
 
@@ -137,12 +137,12 @@
     </div>
     <div class="article-info profile-block">
       <div class="article-info-block">
-        1
+        3
         <span>Posts</span>
       </div>
       <div class="article-info-block">
         
-          5
+          6
         
         <span>
             Tags
@@ -240,7 +240,7 @@
             <i class="fa fa-calendar"></i>
             <time datetime="2020-08-18 12:10:51 &#43;0200 CEST" itemprop="datePublished">2020-08-18</time>
             &middot;
-            674
+            692
             words
             &middot;
             4
@@ -285,7 +285,8 @@
 </header>
 
         <div class="article-entry" itemprop="articleBody">
-            <h3 id="objectives">Objectives</h3>
+            <p>Unifi Networking with the controller hosted on Azure - a simple and powerful approach to a Home Network.</p>
+<h3 id="objectives">Objectives</h3>
 <p>In this post I&rsquo;ll show how to deploy a Unifi Network Controller on Microsoft Azure Cloud. The main goal of this effort was to have a lightweight, efficient but yet very capable home network. In order to do so, the number of boxes required on-prem is kept to the bare minimum. The only devices that remained on-prem are a compact PoE Router (Unifi Edge Router PoE) as well as three Unifi Access Points (two pros and one light). This ensures minimal power consumption (still to be measured) as well as a simplified setup. Fortunately there is a fiber connection as uplink, so the wireless setup is required to provide optimal coverage and perfomance to get the most out of the 250/100mbit connection.</p>
 <h3 id="goals">Goals</h3>
 <ul>
@@ -344,7 +345,6 @@ set-inform http://ip-of-controller:8080/inform
 <p>The roaming works awesome and with two SSIDs covering 5 and 2.4Ghz the performance and coverage is outstanding.</p>
 <h3 id="wrapup">Wrapup</h3>
 <p>The goal of a minimal setup has been achieved. No unnessecary boxes on-prem - but outstanding performance and good manageability. In a future post I&rsquo;ll investigate the options to save resources within Azure in this setup. I have to admit that momentarily I have some credit within my Azure subscription - so until now I did not worry about that. Long-term goal would be to have the most efficient setup possible.</p>
-
         </div>
         <footer class="article-footer">
     <a data-url="https://tonibeck.github.io/2020/08/18/unifi-network-controller-on-azure/" data-id="d1d697313be3cb21e9550deb0c19d238" class="article-share-link">
@@ -422,6 +422,26 @@ set-inform http://ip-of-controller:8080/inform
     </div>
 
     
+<nav id="article-nav">
+    
+    <a href="https://tonibeck.github.io/2020/03/18/my-other-computer-is-an-azure-datacenter-joining-microsoft/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">
+          Older
+      </strong>
+      <div class="article-nav-title">My other Computer is an Azure Datacenter - Joining Microsoft</div>
+    </a>
+    
+
+    
+    <a href="https://tonibeck.github.io/2020/08/18/azure-monitor-networks/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">
+          Newer
+      </strong>
+      <div class="article-nav-title">Azure Monitor - Networks</div>
+    </a>
+    
+</nav>
+
 
 </article>
 
@@ -458,6 +478,44 @@ set-inform http://ip-of-controller:8080/inform
                 </div>
             </li>
             
+            <li>
+                <div class="item-thumbnail">
+                    <a href="https://tonibeck.github.io/2020/08/18/azure-monitor-networks/" class="thumbnail">
+                    
+                        <span style="background-image:url(https://tonibeck.github.io/banners/network_monitoring.png)" alt="Unifi Network Controller on Azure" class="thumbnail-image"></span>
+                    
+                    </a>
+                </div>
+                <div class="item-inner">
+                    
+                    
+                    
+                    <p class="item-title"><a href="https://tonibeck.github.io/2020/08/18/azure-monitor-networks/" class="title">Azure Monitor - Networks</a></p>
+                    <p class="item-date">
+                        <time datetime="2020-08-18 12:10:51 &#43;0200 CEST" itemprop="datePublished">2020-08-18</time>
+                    </p>
+                </div>
+            </li>
+            
+            <li>
+                <div class="item-thumbnail">
+                    <a href="https://tonibeck.github.io/2020/03/18/my-other-computer-is-an-azure-datacenter-joining-microsoft/" class="thumbnail">
+                    
+                        <span style="background-image:url(https://tonibeck.github.io/banners/azure_datacenter.png)" alt="Unifi Network Controller on Azure" class="thumbnail-image"></span>
+                    
+                    </a>
+                </div>
+                <div class="item-inner">
+                    
+                    
+                    
+                    <p class="item-title"><a href="https://tonibeck.github.io/2020/03/18/my-other-computer-is-an-azure-datacenter-joining-microsoft/" class="title">My other Computer is an Azure Datacenter - Joining Microsoft</a></p>
+                    <p class="item-date">
+                        <time datetime="2020-03-18 12:10:51 &#43;0200 &#43;0200" itemprop="datePublished">2020-03-18</time>
+                    </p>
+                </div>
+            </li>
+            
         </ul>
     </div>
 </div>
@@ -484,13 +542,21 @@ set-inform http://ip-of-controller:8080/inform
                 <a class="category-list-link" href="https://tonibeck.github.io/tags/azure">
                     azure
                 </a>
-                <span class="category-list-count">1</span>
+                <span class="category-list-count">3</span>
             </li>
             
             <li class="category-list-item">
                 
                 <a class="category-list-link" href="https://tonibeck.github.io/tags/infrastructure">
                     infrastructure
+                </a>
+                <span class="category-list-count">2</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://tonibeck.github.io/tags/microsoft">
+                    microsoft
                 </a>
                 <span class="category-list-count">1</span>
             </li>
@@ -500,7 +566,7 @@ set-inform http://ip-of-controller:8080/inform
                 <a class="category-list-link" href="https://tonibeck.github.io/tags/networking">
                     networking
                 </a>
-                <span class="category-list-count">1</span>
+                <span class="category-list-count">2</span>
             </li>
             
             <li class="category-list-item">
@@ -508,7 +574,7 @@ set-inform http://ip-of-controller:8080/inform
                 <a class="category-list-link" href="https://tonibeck.github.io/tags/unifi">
                     unifi
                 </a>
-                <span class="category-list-count">1</span>
+                <span class="category-list-count">2</span>
             </li>
             
             <li class="category-list-item">
@@ -516,7 +582,7 @@ set-inform http://ip-of-controller:8080/inform
                 <a class="category-list-link" href="https://tonibeck.github.io/tags/wireless">
                     wireless
                 </a>
-                <span class="category-list-count">1</span>
+                <span class="category-list-count">2</span>
             </li>
             
         </ul>

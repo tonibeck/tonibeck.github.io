@@ -12,12 +12,21 @@
     
     
     <item>
+      <title>Azure Monitor - Networks</title>
+      <link>https://tonibeck.github.io/2020/08/18/azure-monitor-networks/</link>
+      <pubDate>Tue, 18 Aug 2020 12:10:51 +0200</pubDate>
+      
+      <guid>https://tonibeck.github.io/2020/08/18/azure-monitor-networks/</guid>
+      <description>&lt;p&gt;Azure has a number of tools for network monitoring. Now Azure Monitor for Networks is in preview - a consolidation of all tools into one single dashboard.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Unifi Network Controller on Azure</title>
       <link>https://tonibeck.github.io/2020/08/18/unifi-network-controller-on-azure/</link>
       <pubDate>Tue, 18 Aug 2020 12:10:51 +0200</pubDate>
       
       <guid>https://tonibeck.github.io/2020/08/18/unifi-network-controller-on-azure/</guid>
-      <description>Objectives In this post I&amp;rsquo;ll show how to deploy a Unifi Network Controller on Microsoft Azure Cloud. The main goal of this effort was to have a lightweight, efficient but yet very capable home network. In order to do so, the number of boxes required on-prem is kept to the bare minimum. The only devices that remained on-prem are a compact PoE Router (Unifi Edge Router PoE) as well as three Unifi Access Points (two pros and one light).</description>
+      <description>&lt;p&gt;Unifi Networking with the controller hosted on Azure - a simple and powerful approach to a Home Network.&lt;/p&gt;</description>
     </item>
     
   </channel>
