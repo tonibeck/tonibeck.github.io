@@ -12,15 +12,6 @@
     
     
     <item>
-      <title>Azure Monitor - Networks</title>
-      <link>https://tonibeck.github.io/2020/08/18/azure-monitor-networks/</link>
-      <pubDate>Tue, 18 Aug 2020 12:10:51 +0200</pubDate>
-      
-      <guid>https://tonibeck.github.io/2020/08/18/azure-monitor-networks/</guid>
-      <description>&lt;p&gt;Azure has a number of tools for network monitoring. Now Azure Monitor for Networks is in preview - a consolidation of all tools into one single dashboard.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
       <title>Unifi Network Controller on Azure</title>
       <link>https://tonibeck.github.io/2020/08/18/unifi-network-controller-on-azure/</link>
       <pubDate>Tue, 18 Aug 2020 12:10:51 +0200</pubDate>

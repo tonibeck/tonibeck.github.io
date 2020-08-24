@@ -12,15 +12,6 @@
     
     
     <item>
-      <title>Azure Monitor - Networks</title>
-      <link>https://tonibeck.github.io/2020/08/18/azure-monitor-networks/</link>
-      <pubDate>Tue, 18 Aug 2020 12:10:51 +0200</pubDate>
-      
-      <guid>https://tonibeck.github.io/2020/08/18/azure-monitor-networks/</guid>
-      <description>&lt;p&gt;Azure has a number of tools for network monitoring. Now Azure Monitor for Networks is in preview - a consolidation of all tools into one single dashboard.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
       <title>Unifi Network Controller on Azure</title>
       <link>https://tonibeck.github.io/2020/08/18/unifi-network-controller-on-azure/</link>
       <pubDate>Tue, 18 Aug 2020 12:10:51 +0200</pubDate>
@@ -35,7 +26,7 @@
       <pubDate>Wed, 18 Mar 2020 12:10:51 +0200</pubDate>
       
       <guid>https://tonibeck.github.io/2020/03/18/my-other-computer-is-an-azure-datacenter-joining-microsoft/</guid>
-      <description>&lt;p&gt;The year 2020 is an exciting year as it brings a number changes for me - including a professional change. Long story short, after more than 6 years in the networking space, I have decided to make a shift towards cloud. I got the chance to join Microsoft into the role of a Cloud Solution Architect within the Custer Success Unit in Munich. And guess what, I took it :-)&lt;/p&gt;</description>
+      <description>&lt;p&gt;The year 2020 is an exciting year as it brings a few new things for me - including a professional change. Long story short, after a couple of years with Cisco in the networking space, I have decided to make a shift towards cloud. I got the chance to join Microsoft into the role of a Cloud Solution Architect within the Customer Success Unit in Munich. And guess what, I took it :-)&lt;/p&gt;</description>
     </item>
     
   </channel>
