@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>infrastructure on tonibeck.github.io</title>
-    <link>https://tonibeck.github.io/tags/infrastructure/</link>
-    <description>Recent content in infrastructure on tonibeck.github.io</description>
+    <title>network monitoring on tonibeck.github.io</title>
+    <link>https://tonibeck.github.io/tags/network-monitoring/</link>
+    <description>Recent content in network monitoring on tonibeck.github.io</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 24 Aug 2020 12:10:51 +0200</lastBuildDate>
     
-	<atom:link href="https://tonibeck.github.io/tags/infrastructure/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://tonibeck.github.io/tags/network-monitoring/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -20,15 +20,6 @@
       <description>&lt;p&gt;Azure has a number of tools for network monitoring. Luckily Azure Monitor for Networks is now in preview - and offers a consolidation of all tools into one single dashboard.&lt;/p&gt;
 &lt;p&gt;The monitoring space withing Azure is actually divided in four major pillars:&lt;/p&gt;
 &lt;p&gt;Resource Metrics, logs &amp;amp; health, connectivity, traffic and diagnostics:&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Unifi Network Controller on Azure</title>
-      <link>https://tonibeck.github.io/2020/08/18/unifi-network-controller-on-azure/</link>
-      <pubDate>Tue, 18 Aug 2020 12:10:51 +0200</pubDate>
-      
-      <guid>https://tonibeck.github.io/2020/08/18/unifi-network-controller-on-azure/</guid>
-      <description>&lt;p&gt;Unifi Networking with the controller hosted on Azure - a simple and powerful approach to a Home Network.&lt;/p&gt;</description>
     </item>
     
   </channel>

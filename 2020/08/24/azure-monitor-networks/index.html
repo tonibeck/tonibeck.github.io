@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
-    <title>networking &middot; tonibeck.github.io</title>
+    <title>Azure Monitor - Networks &middot; tonibeck.github.io</title>
     <meta name="generator" content="Hugo 0.73.0" />
 
     
@@ -26,10 +26,7 @@ if (!doNotTrack) {
       <meta name="description" content="Personal Blog and Website of Toni Beck at Microsoft">
     
     
-      <link href="/tags/networking/index.xml" rel="alternate" type="application/rss+xml" title="tonibeck.github.io" />
-      <link href="/tags/networking/index.xml" rel="feed" type="application/rss+xml" title="tonibeck.github.io" />
-    
-    <link rel="canonical" href="https://tonibeck.github.io/tags/networking/"/>
+    <link rel="canonical" href="https://tonibeck.github.io/2020/08/24/azure-monitor-networks/"/>
     <link rel="icon" href="https://tonibeck.github.io/favicon.ico">
     <link rel="apple-touch-icon" href="https://tonibeck.github.io/apple-touch-icon.png"/>
     <link rel="stylesheet" href="https://tonibeck.github.io/css/style.css">
@@ -39,18 +36,32 @@ if (!doNotTrack) {
     
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Source+Code+Pro' rel='stylesheet' type='text/css'>
-    <meta property="og:title" content="networking" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://tonibeck.github.io/tags/networking/" />
-<meta property="og:updated_time" content="2020-08-24T12:10:51+02:00" />
+    <meta property="og:title" content="Azure Monitor - Networks" />
+<meta property="og:description" content="Azure has a number of tools for network monitoring. Luckily Azure Monitor for Networks is now in preview - and offers a consolidation of all tools into one single dashboard.
+The monitoring space withing Azure is actually divided in four major pillars:
+Resource Metrics, logs &amp; health, connectivity, traffic and diagnostics:" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://tonibeck.github.io/2020/08/24/azure-monitor-networks/" />
+<meta property="article:published_time" content="2020-08-24T12:10:51+02:00" />
+<meta property="article:modified_time" content="2020-08-24T12:10:51+02:00" />
 
     
-    <meta itemprop="name" content="networking">
-<meta itemprop="description" content="">
+    <meta itemprop="name" content="Azure Monitor - Networks">
+<meta itemprop="description" content="Azure has a number of tools for network monitoring. Luckily Azure Monitor for Networks is now in preview - and offers a consolidation of all tools into one single dashboard.
+The monitoring space withing Azure is actually divided in four major pillars:
+Resource Metrics, logs &amp; health, connectivity, traffic and diagnostics:">
+<meta itemprop="datePublished" content="2020-08-24T12:10:51&#43;02:00" />
+<meta itemprop="dateModified" content="2020-08-24T12:10:51&#43;02:00" />
+<meta itemprop="wordCount" content="63">
+
+
+
+<meta itemprop="keywords" content="azure,networking,network monitoring,infrastructure," />
     <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="networking"/>
-<meta name="twitter:description" content=""/>
+<meta name="twitter:title" content="Azure Monitor - Networks"/>
+<meta name="twitter:description" content="Azure has a number of tools for network monitoring. Luckily Azure Monitor for Networks is now in preview - and offers a consolidation of all tools into one single dashboard.
+The monitoring space withing Azure is actually divided in four major pillars:
+Resource Metrics, logs &amp; health, connectivity, traffic and diagnostics:"/>
 
     
 
@@ -232,67 +243,166 @@ if (!doNotTrack) {
 
     <section id="main">
     
-    
-    
-    
-    <section class="archives-wrap">
-        <div class="archive-category-wrap">
-            <span class="archive-category">networking</span>
-        </div>
-        <div class="archives">
-            
-            
-                <article class="archive-article archive-type-post">
-    <div class="archive-article-inner">
-        <div class="archive-article-thumbnail">
-            
-            <a href="https://tonibeck.github.io/2020/08/24/azure-monitor-networks/" class="thumbnail">
-                <span style="background-image:url(https://tonibeck.github.io/banners/network_monitoring.png)" alt="Azure Monitor - Networks" class="thumbnail-image"></span>
-            </a>
-            
-        </div>
-        <header class="archive-article-header">
-            <h1 itemprop="name">
-            <a class="archive-article-title" href="https://tonibeck.github.io/2020/08/24/azure-monitor-networks/">Azure Monitor - Networks</a>
-            </h1>
-            <div class="archive-article-date">
-                <i class="fa fa-calendar"></i>
-                <time datetime="2020-08-24 12:10:51 &#43;0200 CEST" itemprop="datePublished">2020-08-24</time>
-            </div>
-        </header>
-    </div>
-</article>
- 
-            
-                <article class="archive-article archive-type-post">
-    <div class="archive-article-inner">
-        <div class="archive-article-thumbnail">
-            
-            <a href="https://tonibeck.github.io/2020/08/18/unifi-network-controller-on-azure/" class="thumbnail">
-                <span style="background-image:url(https://tonibeck.github.io/banners/unifi_portfolio.png)" alt="Unifi Network Controller on Azure" class="thumbnail-image"></span>
-            </a>
-            
-        </div>
-        <header class="archive-article-header">
-            <h1 itemprop="name">
-            <a class="archive-article-title" href="https://tonibeck.github.io/2020/08/18/unifi-network-controller-on-azure/">Unifi Network Controller on Azure</a>
-            </h1>
-            <div class="archive-article-date">
-                <i class="fa fa-calendar"></i>
-                <time datetime="2020-08-18 12:10:51 &#43;0200 CEST" itemprop="datePublished">2020-08-18</time>
-            </div>
-        </header>
-    </div>
-</article>
- 
-            
-        </div>
-    </section>
-    <nav id="page-nav">
+    <article id="page-undefined" class="article article-type-page" itemscope="" itemprop="blogPost">
+    <div class="article-inner">
+        
+            <img src="https://tonibeck.github.io/banners/network_monitoring.png" class="article-banner">
+        
 
+        <header class="article-header">
+    <a href="https://tonibeck.github.io/2020/08/24/azure-monitor-networks/">
+    <h1 class="article-title" itemprop="name">
+        Azure Monitor - Networks
+    </h1>
+    </a>
+    <div class="article-meta">
+
+        
+        <div class="article-date">
+            <i class="fa fa-calendar"></i>
+            <time datetime="2020-08-24 12:10:51 &#43;0200 CEST" itemprop="datePublished">2020-08-24</time>
+            &middot;
+            63
+            words
+            &middot;
+            1
+            minute read
+        </div>
+        
+        
+            
+            
+        
+
+        
+            
+            
+            <div class="article-category">
+                <i class="fa fa-tags"></i>
+                
+                
+                <a class="article-category-link" href="https://tonibeck.github.io/tags/azure">azure</a>
+                &middot;
+                
+                
+                <a class="article-category-link" href="https://tonibeck.github.io/tags/networking">networking</a>
+                &middot;
+                
+                
+                <a class="article-category-link" href="https://tonibeck.github.io/tags/network-monitoring">network monitoring</a>
+                &middot;
+                
+                
+                <a class="article-category-link" href="https://tonibeck.github.io/tags/infrastructure">infrastructure</a>
+                
+                
+            </div>
+            
+        
+    </div>
+</header>
+
+        <div class="article-entry" itemprop="articleBody">
+            <p>Azure has a number of tools for network monitoring. Luckily Azure Monitor for Networks is now in preview - and offers a consolidation of all tools into one single dashboard.</p>
+<p>The monitoring space withing Azure is actually divided in four major pillars:</p>
+<p>Resource Metrics, logs &amp; health, connectivity, traffic and diagnostics:</p>
+<p>The official Microsoft documentation can be found <a href="https://docs.microsoft.com/en-us/azure/azure-monitor/insights/network-insights-overview">here in Microsoft Docs</a></p>
+<h3 id="objectives">Objectives</h3>
+<p><img src="/images/network_monitoring.png" alt=""></p>
+        </div>
+        <footer class="article-footer">
+    <a data-url="https://tonibeck.github.io/2020/08/24/azure-monitor-networks/" data-id="b3743642f3a9a2be355500fee78a7ab4" class="article-share-link">
+        <i class="fa fa-share"></i>
+        Share
+    </a>
+    
+
+    <script>
+    (function ($) {
+        
+        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
+            __SHARE_BUTTON_BINDED__ = true;
+        } else {
+            return;
+        }
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fa fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+    </script>
+</footer>
+
+    </div>
+
+    
+<nav id="article-nav">
+    
+    <a href="https://tonibeck.github.io/2020/08/18/unifi-network-controller-on-azure/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">
+          Older
+      </strong>
+      <div class="article-nav-title">Unifi Network Controller on Azure</div>
+    </a>
+    
+
+    
 </nav>
 
-    
+
+</article>
+
+
 
     </section>
 
@@ -310,7 +420,7 @@ if (!doNotTrack) {
                 <div class="item-thumbnail">
                     <a href="https://tonibeck.github.io/2020/08/24/azure-monitor-networks/" class="thumbnail">
                     
-                        <span style="background-image:url(https://tonibeck.github.io/banners/network_monitoring.png)" alt="networking" class="thumbnail-image"></span>
+                        <span style="background-image:url(https://tonibeck.github.io/banners/network_monitoring.png)" alt="Azure Monitor - Networks" class="thumbnail-image"></span>
                     
                     </a>
                 </div>
@@ -329,7 +439,7 @@ if (!doNotTrack) {
                 <div class="item-thumbnail">
                     <a href="https://tonibeck.github.io/2020/08/18/unifi-network-controller-on-azure/" class="thumbnail">
                     
-                        <span style="background-image:url(https://tonibeck.github.io/banners/unifi_portfolio.png)" alt="networking" class="thumbnail-image"></span>
+                        <span style="background-image:url(https://tonibeck.github.io/banners/unifi_portfolio.png)" alt="Azure Monitor - Networks" class="thumbnail-image"></span>
                     
                     </a>
                 </div>
@@ -348,7 +458,7 @@ if (!doNotTrack) {
                 <div class="item-thumbnail">
                     <a href="https://tonibeck.github.io/2020/03/18/my-other-computer-is-an-azure-datacenter-joining-microsoft/" class="thumbnail">
                     
-                        <span style="background-image:url(https://tonibeck.github.io/banners/azure_datacenter.png)" alt="networking" class="thumbnail-image"></span>
+                        <span style="background-image:url(https://tonibeck.github.io/banners/azure_datacenter.png)" alt="Azure Monitor - Networks" class="thumbnail-image"></span>
                     
                     </a>
                 </div>

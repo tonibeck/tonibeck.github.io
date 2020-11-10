@@ -6,7 +6,7 @@
     <description>Recent content in Tags on tonibeck.github.io</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 18 Aug 2020 12:10:51 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2020 12:10:51 +0200</lastBuildDate>
     
 	<atom:link href="https://tonibeck.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>azure</title>
       <link>https://tonibeck.github.io/tags/azure/</link>
-      <pubDate>Tue, 18 Aug 2020 12:10:51 +0200</pubDate>
+      <pubDate>Mon, 24 Aug 2020 12:10:51 +0200</pubDate>
       
       <guid>https://tonibeck.github.io/tags/azure/</guid>
       <description></description>
@@ -23,16 +23,25 @@
     <item>
       <title>infrastructure</title>
       <link>https://tonibeck.github.io/tags/infrastructure/</link>
-      <pubDate>Tue, 18 Aug 2020 12:10:51 +0200</pubDate>
+      <pubDate>Mon, 24 Aug 2020 12:10:51 +0200</pubDate>
       
       <guid>https://tonibeck.github.io/tags/infrastructure/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>network monitoring</title>
+      <link>https://tonibeck.github.io/tags/network-monitoring/</link>
+      <pubDate>Mon, 24 Aug 2020 12:10:51 +0200</pubDate>
+      
+      <guid>https://tonibeck.github.io/tags/network-monitoring/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>networking</title>
       <link>https://tonibeck.github.io/tags/networking/</link>
-      <pubDate>Tue, 18 Aug 2020 12:10:51 +0200</pubDate>
+      <pubDate>Mon, 24 Aug 2020 12:10:51 +0200</pubDate>
       
       <guid>https://tonibeck.github.io/tags/networking/</guid>
       <description></description>
