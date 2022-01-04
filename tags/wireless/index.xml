@@ -6,11 +6,7 @@
     <description>Recent content in wireless on tonibeck.github.io</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 18 Aug 2020 12:10:51 +0200</lastBuildDate>
-    
-	<atom:link href="https://tonibeck.github.io/tags/wireless/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 18 Aug 2020 12:10:51 +0200</lastBuildDate><atom:link href="https://tonibeck.github.io/tags/wireless/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Unifi Network Controller on Azure</title>
       <link>https://tonibeck.github.io/2020/08/18/unifi-network-controller-on-azure/</link>
