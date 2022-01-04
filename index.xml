@@ -6,18 +6,7 @@
     <description>Recent content on tonibeck.github.io</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 02 Jan 2022 12:10:51 +0200</lastBuildDate><atom:link href="https://tonibeck.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Azure Monitor - Networksss</title>
-      <link>https://tonibeck.github.io/2022/01/02/azure-monitor-networksss/</link>
-      <pubDate>Sun, 02 Jan 2022 12:10:51 +0200</pubDate>
-      
-      <guid>https://tonibeck.github.io/2022/01/02/azure-monitor-networksss/</guid>
-      <description>&lt;p&gt;Azure has a number of tools for network monitoring. Luckily Azure Monitor for Networks is now in preview - and offers a consolidation of all tools into one single dashboard.&lt;/p&gt;
-&lt;p&gt;The monitoring space within Azure is actually divided in four major pillars:&lt;/p&gt;
-&lt;p&gt;Resource Metrics, logs &amp;amp; health, connectivity, traffic and diagnostics:&lt;/p&gt;</description>
-    </item>
-    
+    <lastBuildDate>Mon, 21 Dec 2020 12:10:51 +0200</lastBuildDate><atom:link href="https://tonibeck.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>One year at Microsoft</title>
       <link>https://tonibeck.github.io/2020/12/21/one-year-at-microsoft/</link>
