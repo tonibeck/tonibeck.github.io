@@ -6,13 +6,23 @@
     <description>Recent content on tonibeck.github.io</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 21 Dec 2020 12:10:51 +0200</lastBuildDate><atom:link href="https://tonibeck.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 02 Jan 2022 21:49:20 +0200</lastBuildDate><atom:link href="https://tonibeck.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>One year at Microsoft</title>
-      <link>https://tonibeck.github.io/2020/12/21/one-year-at-microsoft/</link>
+      <title>Direction Multi-Cloud: Joining Aviatrix</title>
+      <link>https://tonibeck.github.io/2022/01/02/direction-multi-cloud-joining-aviatrix/</link>
+      <pubDate>Sun, 02 Jan 2022 12:10:51 +0200</pubDate>
+      
+      <guid>https://tonibeck.github.io/2022/01/02/direction-multi-cloud-joining-aviatrix/</guid>
+      <description>&lt;p&gt;The cloud market is developing at great speed. I had two great, successful years as a Solution Architect at Microsoft. Microsoft has a fantastic team, great customers and outstanding momentum with Azure.&lt;/p&gt;
+&lt;p&gt;It was a great time with personal growth and definitely a whole lot of learnings. In 2022, however, I have decided to take the experience I have gained and transfer into a new role at Aviatrix in EMEA. Here is why I think this is the right move.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>First year at Microsoft</title>
+      <link>https://tonibeck.github.io/2020/12/21/first-year-at-microsoft/</link>
       <pubDate>Mon, 21 Dec 2020 12:10:51 +0200</pubDate>
       
-      <guid>https://tonibeck.github.io/2020/12/21/one-year-at-microsoft/</guid>
+      <guid>https://tonibeck.github.io/2020/12/21/first-year-at-microsoft/</guid>
       <description>&lt;p&gt;I can hardly believe it, but almost one year has already gone by since I started at Microsoft. 
 In this post I would like to give an insight into how my first year went. I can say in advance that it was a complete success and I&amp;rsquo;m happy to have made this decision.&lt;/p&gt;
 &lt;p&gt;In the following I will give a brief insight into hiring, onboarding, the role of the Cloud Solution Architect and the learning and growth opportunities within Microsoft.&lt;/p&gt;</description>
