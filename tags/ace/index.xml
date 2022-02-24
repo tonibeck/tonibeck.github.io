@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ACE on tonibeck.github.io</title>
+    <link>https://tonibeck.github.io/tags/ace/</link>
+    <description>Recent content in ACE on tonibeck.github.io</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 24 Feb 2022 12:10:51 +0200</lastBuildDate><atom:link href="https://tonibeck.github.io/tags/ace/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Aviatrix Certified Engineer (ACE) Professional</title>
+      <link>https://tonibeck.github.io/2022/02/24/aviatrix-certified-engineer-ace-professional/</link>
+      <pubDate>Thu, 24 Feb 2022 12:10:51 +0200</pubDate>
+      
+      <guid>https://tonibeck.github.io/2022/02/24/aviatrix-certified-engineer-ace-professional/</guid>
+      <description>&lt;p&gt;I recently went through the professional certification from Aviatrix. It&amp;rsquo;s a great way for all IT professionals to expand their knowledge in Cloud Infrastructure and Networking. The certification is valuable for all roles, whether at a systems integrator or partner, end customer, or as a technical role at a Cloud Service Provider (CSP).&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
