@@ -2,7 +2,7 @@
 <html lang="en-us">
 <head>
     <title>Unifi Network Controller on Azure &middot; tonibeck.github.io</title>
-    <meta name="generator" content="Hugo 0.100.1" />
+    <meta name="generator" content="Hugo 0.107.0">
 
     
 <script type="application/javascript">
@@ -336,7 +336,7 @@ az vm create --resource-group Unifi-RG \
 </code></pre>
 <p>When the installation is completed, the Controller can be accessed via <code>https://ip.of.your.server:8443</code>.</p>
 <p>If everything went well the Controller should be up and running under its respective public IP. DNS is nice but not a must here.</p>
-<p>Et voila there it is: 
+<p>Et voila there it is:
 <img src="/images/controller.png" alt=""></p>
 <p>The Controller is now ready to adopt the Unifi hardware. Obviously the Controller is not in the same Subnet as the APs. Therefore the APs have to be informed about how to reach the Controller. A comprehensive description of the different adoption-methods can be found in the <a href="https://help.ui.com/hc/en-us/articles/204909754-UniFi-Device-Adoption-Methods-for-Remote-UniFi-Controllers">unifi-help</a>.</p>
 <p>It seems the easiest way here is to just ssh into each AP prior to adoption and do the following:</p>
